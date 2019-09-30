@@ -8,13 +8,14 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'xkdc comics',
+        'XKCDURL' => 'http://xkcd.com/info.0.json',
         'pretty_uri' => false,
         'site_url' => 'http://assignment2-for-php.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
-            'hello-world' => 'Hello World',
-            'Menu' => 'Menu'
+            'randomImg' => 'A random comic'//,
+            //'Menu' => 'Menu'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
