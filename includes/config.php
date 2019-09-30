@@ -14,8 +14,8 @@ function config($key = '')
         'site_url' => 'http://assignment2-for-php.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
-            'randomImg' => 'A random comic'//,
-            //'Menu' => 'Menu'
+            'randomImg' => 'A random comic',
+            'aComic' => 'A Comic'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
