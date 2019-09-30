@@ -1,2 +1,1 @@
-# Assignment2
- This is for the 2nd assignment on PHP
+The web link is http://assignment2-for-php.herokuapp.com
