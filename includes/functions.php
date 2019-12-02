@@ -134,9 +134,9 @@ function page_title()
 function page_content()
 {
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
-    $path = getcwd() . '/' . config('Content_path') . '/' . $page . '.phtml';
+    $path = getcwd() . '/' . config('Content_path') . '/' . $page . '.pho';
     if (! file_exists($path)) {
-        $path = getcwd() . '/' . config('Content_path') . '/404.phtml';
+        $path = getcwd() . '/' . config('Content_path') . '/404.pho';
     }
     echo file_get_contents($path);
 }
