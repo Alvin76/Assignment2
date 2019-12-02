@@ -18,7 +18,7 @@
     </nav>
     <main>
       <?php nav_bar(); ?>
-      <?php getTodaysComic ?>
+      <?php getTodaysComic(); ?>
     </main>
     <footer></footer>
 
