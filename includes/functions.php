@@ -6,6 +6,19 @@ $nav_items = array('Home Page', 'Todays Comic', 'Random Comic');
 $urls = array('Home.php', 'todays.php', 'random.php');
 
 /**
+* http://xkcd.com/info.0.json (current comic)
+*
+* or:
+*
+* http://xkcd.com/614/info.0.json (comic #614)
+*
+*
+*
+*/
+
+
+
+/**
  * Displays site name.
  */
 function site_name()
